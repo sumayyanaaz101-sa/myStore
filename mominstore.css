@@ -1,0 +1,194 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(240, 234, 232) ;
+    color:rgb(253, 251, 248);; 
+    padding: 15px 0;
+    width: 100%;
+}
+
+.nav-container{
+    background-color:rgb(121, 114, 108); 
+    padding: 50px;
+    width: 100%;
+    height: 175px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin:  15px 20px;   
+    padding-left: 30px;
+   
+
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li a{
+    color: #fcf9f9;
+    cursor:pointer;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease , transform 0.7s ease;
+}
+.nav ul li a:hover{
+    color: #0e0c0c;
+    cursor:pointer;
+    font-size: large;
+transform: scale(1.10);
+background-color: rgb(236, 233, 233);
+}
+   
+
+.hero{
+    background-image: url(islamicitems.jpeg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    color: #000;
+    font-size: large;
+}/*
+.hero-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+*/
+}
+.hero-content{
+    z-index: 2;
+    position: relative;
+    flex-direction: column;
+    text-align:center;
+    color: #000;
+    font-size: large;
+    align-self: center;
+}
+.hero-h1{
+    font: size 1.5rem;
+}
+.hero-p{
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(207, 209, 200);
+    color: #131312;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+font-size: 1.1rem;
+border-radius: 5px;
+transition: background-color 0.3s ease , transform 0.3s ease;
+}
+.btn:hover{
+    background-color: rgb(243, 238, 238);
+    transform: scale(1.10);
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.feature-card {
+    background-color: rgb(240, 234, 232);
+    color: rgb(49, 48, 47);
+    border: 1px solid rgb(221, 215, 213);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(206, 22, 22, 0.1);
+    transition: transform 0.3s ease-in;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+}
+.feature-card p {
+    margin-bottom: 10px;
+}
+.footer {
+     background-color: rgb(238, 233, 233);
+        color: #252524;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+        height: 100px;;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.footer a {
+    color: rgb(207, 209, 200);
+    text-decoration: none;  
+}
+.footer ul li a{
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(12, 9, 5);
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    list-style:none ;
+
+}
+.footer ul li a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    color: rgb(69, 133, 141);
+}
+{
+
+}
